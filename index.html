@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<style>
+			#section{
+				width: 400px;
+				height: 400px;
+				border-radius: 50%;
+				color: white;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id='section'></div>
+		<script type='text/javascript' src='../jquery.js'></script>
+		<script type='text/javascript' src='stars_plugin.js'></script>
+		<script type='text/javascript'>
+			$(document).ready(function(){
+				$('#section').stars(30, 0.1);
+			});
+		</script>
+	</body>
+</html>
