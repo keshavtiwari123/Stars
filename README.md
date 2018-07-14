@@ -1,1 +1,2 @@
 # Stars
+jQuery plugin
